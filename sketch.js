@@ -168,7 +168,7 @@ function draw()
         stroke("deeppink");
         fill(39, 6, 147);
         strokeWeight(8);
-        text("Happy Birthday To You",width/4, height/5);
+        text("Happy Birthday To You",width/10, height/5);
        
        // noBackround();
     }
