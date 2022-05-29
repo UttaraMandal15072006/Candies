@@ -96,6 +96,10 @@ function draw()
     {
         music.play();
     }
+    else
+    {
+        music.stop();
+    }
  
     if(gamestate===g1)
     {
@@ -159,7 +163,7 @@ function draw()
         cakeG.destroyEach();
         back.changeImage("back3",back3Img);
         back.scale=1.8;
-        textSize(90);
+        textSize(64);
         textFont("Brush Script MT")
         stroke("deeppink");
         fill(39, 6, 147);
