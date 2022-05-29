@@ -92,18 +92,14 @@ function draw()
     playbtn.visible=false;
     console.log(gamestate);
     console.log(t);
-    if(!music.isPlaying())
-    {
-        music.play();
-    }
-    else
-    {
-        music.stop();
-    }
- 
+   
     if(gamestate===g1)
     {
-      
+       if(!music.isPlaying())
+      {
+        music.play();
+       }
+  
        
         back.addImage("back1",back2Img);
         back.scale=1.2;
